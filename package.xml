@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>nturt_ros_interface</name>
+    <version>0.0.0</version>
+    <description>ROS interface for nturt.</description>
+    <maintainer email="jet22854111@gmail.com">QuantumSpawner</maintainer>
+    <license>TODO</license>
+
+    <depend>std_msgs</depend>
+    
+    <buildtool_depend>catkin</buildtool_depend>
+    <build_depend>message_generation</build_depend>
+    <build_export_depend>message_runtime</build_export_depend>
+
+    <exec_depend>message_runtime</exec_depend>
+</package>
