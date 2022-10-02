@@ -1,0 +1,10 @@
+# the name of the node for defining the topic name
+string node_name
+
+# an array of strings specifying the can data want to be notified
+string[] data_name
+
+---
+
+# the name of the topic for data notification
+string topic

@@ -9,12 +9,13 @@ find_package(catkin REQUIRED COMPONENTS
 # custom interfaces
 # message
 add_message_files(FILES
-        SendCanData.msg
+        UpdateCanData.msg
 )
 
 # service
 add_service_files(FILES
         GetCanData.srv
+        RegisterCanNotification.srv
 )
 
 generate_messages(DEPENDENCIES
