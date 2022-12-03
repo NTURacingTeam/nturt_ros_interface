@@ -9,6 +9,7 @@ find_package(catkin REQUIRED COMPONENTS
 # custom interfaces
 # message
 add_message_files(FILES
+        TorqueControllerData.msg
         UpdateCanData.msg
 )
 
