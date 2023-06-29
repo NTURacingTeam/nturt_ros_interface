@@ -14,6 +14,7 @@ find_package(std_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
         msg/LatencyTestMessage.msg
         msg/SingleLatencyTestResult.msg
+        msg/SystemStats.msg
         msg/TorqueControllerData.msg
         msg/UpdateCanData.msg
         srv/RegisterCanNotification.srv
