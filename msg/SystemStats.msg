@@ -12,3 +12,9 @@ float32 disk_usage
 
 # cpu temperature in [C]
 float32 cpu_temperature
+
+# ssid of the connected wifi
+string wifi_ssid
+
+# wifi strength in [dBm], 0 if not connected
+int32 wifi_strength
