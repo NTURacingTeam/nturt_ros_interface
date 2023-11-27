@@ -13,6 +13,9 @@ float32 disk_usage
 # cpu temperature in [C]
 float32 cpu_temperature
 
+# ping to 1.1.1.1 in [ms], 0 if not connected
+float32 ping
+
 # ssid of the connected wifi
 string wifi_ssid
 
